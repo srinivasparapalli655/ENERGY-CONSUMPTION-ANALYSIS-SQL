@@ -1,86 +1,70 @@
-# ENERGY-CONSUMPTION-ANALYSIS-SQL
-📌 Project Overview
+# ⚡ Energy Consumption Analysis & Prediction
 
-This project presents a comprehensive SQL-based analysis of global energy trends.
-By integrating datasets related to energy consumption, production, emissions, GDP, and population, the project explores how economic growth impacts energy usage and environmental sustainability.
+This project analyzes historical energy usage data and predicts future consumption using **Machine Learning models** and **SQL-based data processing**. The goal is to identify energy trends, optimize usage, and build a forecasting system that can support smart energy planning.
 
-The system enables structured analysis using a normalized relational database, making it suitable for analytical queries and real-world decision-making.
+---
 
-🗄️ Database Schema
+## 📊 Project Overview
 
-The project uses a relational database named ENERGYDB2, designed with normalization principles to ensure data integrity, consistency, and scalability.
+- Collects and stores energy consumption records in a structured **SQL database**
+- Processes data using Python libraries for analysis
+- Trains ML models to **predict future energy usage**
+- Visualizes energy trends and insights
+- Includes complete documentation and presentation files
 
-📊 Tables and Relationships
+---
 
-country
-Central master table containing unique country identifiers (CID) and country names.
+## 🚀 Key Highlights
 
-emission_3
-Stores yearly CO₂ emission data and per-capita emission values, categorized by energy type.
+- **Energy trend analysis** from past records
+- **Future energy forecasting** using ML regression/forecasting techniques
+- **Optimized SQL queries** for retrieving and managing energy data
+- **Graph-based visualizations** for better insights
+- Real-world use case for smart grids, IoT energy monitoring, and planning
 
-population
-Contains historical population data for each country across multiple years.
+---
 
-production
-Tracks energy production volumes by energy type and year for each country.
+## 🛠️ Technologies Used
 
-consumption
-Records total energy consumption figures per country and year.
+- **Python** (Pandas, NumPy, Matplotlib, Scikit-Learn)
+- **MySQL / SQL**
+- **Machine Learning Prediction Models**
+- **GitHub** for project hosting
+- **PowerPoint Presentation & PDF Report** for documentation
 
-gdp_3
-Stores annual GDP values used for economic and emission efficiency analysis.
+---
 
-📌 All tables are linked using country-based foreign key relationships, forming one-to-many relationships with the country table.
+## 📁 Included Files
 
-📈 Key Analytical Insights
+- `ENERGY CONSUMPTION ANALYSIS.pdf` → Detailed project report
+- `ENERGY CONSUMPTION ANALYSIS.sql` → Database schema and queries
+- `ENERGY CONSUMPTION ANALYSIS.ppt/.odp` → Project presentation
+- ML model training and prediction scripts
+- Dataset for energy analysis
 
-The SQL queries in this project support multiple analytical perspectives:
+---
 
-🔹 1. Comparative Analysis
+## 📈 What the Project Does
 
-Top Polluters
-Identifies countries with the highest total emissions in the most recent year.
+1. Loads energy data from database or dataset
+2. Cleans and preprocesses the data
+3. Runs analysis to find usage patterns
+4. Trains an ML model for prediction
+5. Predicts future energy consumption
+6. Displays insights through visual graphs
 
-Global GDP Leaders
-Lists the top 5 countries by GDP to study the relationship between economic strength and energy usage.
+---
 
-Energy Type Impact
-Determines which energy sources (Coal, Oil, Gas, etc.) contribute most to global emissions.
+## 🎯 Applications
 
-🔹 2. Efficiency & Ratio Analysis
+- Predicting energy requirements
+- Identifying peak usage periods
+- Supporting smart energy optimization
+- Useful for energy planning in IoT and automation systems
 
-Emission-to-GDP Ratio
-Measures environmental efficiency by calculating CO₂ emissions per unit of GDP.
+---
 
-Per Capita Trends
-Analyzes energy consumption and production relative to population size over time.
+## 👤 Author
 
-Consumption vs GDP
-Identifies countries with high energy demand compared to their economic output.
-
-🔹 3. Growth & Trend Tracking
-
-Year-over-Year (YoY) Changes
-Uses SQL window functions like LAG() to calculate GDP and energy production growth rates.
-
-Emission Improvement Analysis
-Tracks countries that have successfully reduced per-capita emissions over time.
-
-Global Averages
-Computes yearly global averages for GDP, emissions, and population growth.
-
-🛠️ Technical Skills Demonstrated
-
-Advanced SQL Joins
-Combining multiple tables to analyze relationships between population, wealth, and emissions.
-
-Window Functions
-Using LAG() and OVER (PARTITION BY …) for trend and growth analysis.
-
-Aggregations & Filtering
-Effective use of GROUP BY, HAVING, subqueries, and conditional filtering.
-
-Database Normalization
-Proper use of primary and foreign keys to maintain a clean and scalable schema.
-
-This project demonstrates how SQL can be used for large-scale analytical problem solving, providing insights into global energy usage, economic growth, and environmental impact through a well-structured relational database.
+**Srinivas**  
+Computer Science Engineering (AI & ML Specialization)
