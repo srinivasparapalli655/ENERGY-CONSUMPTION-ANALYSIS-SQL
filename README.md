@@ -67,4 +67,4 @@ This project analyzes historical energy usage data and predicts future consumpti
 ## 👤 Author
 
 **Srinivas**  
-Computer Science Engineering (AI & ML Specialization)
+Computer Science Engineering 
